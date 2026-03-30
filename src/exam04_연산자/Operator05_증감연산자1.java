@@ -6,17 +6,22 @@ public class Operator05_증감연산자1 {
 		
 			//실제활용
 		
+		// 전치 연산자
 		int n = 10;
-		int n2 = 20;
+		++n; // n=n+1 동일,  n+=1 동일
+		System.out.println(n);
 		
-		//질문? n 값이 15보다 크고 n2값이 30보다 작냐?
-		boolean result =(n>15)&&(n2<30);
-		System.out.println(result);
-		System.out.println((n>15)&&(n2<30));
-		//질문? n 값이 15보다 크거나 n2값이 30보다 작냐?
-		boolean result2 = ((n>15)||(n2<30));
-		System.out.println(result2);
-
+		--n; // n=n-1 동일,  n-=1 동일
+		System.out.println(n);
+		
+		
+		//후치 연산자
+		int n2 = 10;
+		n2++; // n=n+1 동일,  n+=1 동일
+		System.out.println(n2);
+		
+		n2--; // n=n-1 동일,  n-=1 동일
+		System.out.println(n2);
 
 	}
 
