@@ -30,8 +30,14 @@ public class ArrayTest01_1차원배열 {
 		System.out.println("배열길이:" + num.length);
 		
 		//i갑싱 인덱스 역할
-		for(int i=0; i < num.lengh; i++);
-			System.out.println("num[%d]=%d \n",i, num[i]);
+		//for(int i=0; i < num.lengh; i++);
+		//	System.out.printf("num[%d]=%d \n",i, num[i]);
+			
+			
+		//향상된 for문
+		for(int n:num) {
+			System.out.println(n);
+		}
 	}
 
 }
