@@ -1,4 +1,4 @@
-package exam12_상속2_상속후;
+package exam12_상속3_super;
 
 
 public class Employee {

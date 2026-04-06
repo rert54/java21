@@ -1,0 +1,15 @@
+package exam12_상속6_다향성;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		
+		//다형성이 적용안된 방식
+		Manager m = new Manager("홍길동", 2000,"인사");
+		Engineer eng = new Engineer("유관순",1800,"자바");
+		
+		System.out.println(m);
+		System.out.println(eng);
+	}
+
+}

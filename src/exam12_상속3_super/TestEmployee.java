@@ -1,4 +1,4 @@
-package exam12_상속2_상속후;
+package exam12_상속3_super;
 
 public class TestEmployee {
 
@@ -10,7 +10,10 @@ public class TestEmployee {
 		System.out.println(m.getManager());
 		System.out.println(eng.getEngineer());
 		
-
+		//수정 : 원래는 setter 메서드 이요
+		m.salary = 3000;
+		//조회:원래는 getter 메서드이용
+		System.out.println(m.name+"\t"+m.salary+"\t"+m.depart);
 	}
 
 }
