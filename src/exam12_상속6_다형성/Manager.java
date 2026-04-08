@@ -1,4 +1,4 @@
-package exam12_상속6_다향성;
+package exam12_상속6_다형성;
 
 //관리자
 //Manager is a Employee (상속관계)

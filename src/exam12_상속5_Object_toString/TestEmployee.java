@@ -17,6 +17,9 @@ public class TestEmployee {
 		//Object의 toString() 이건 부모인 employee에도 없음
 		//exam12_상속5_Object_toString.Manager@404b9385 toString의 실제구현값
 		System.out.println(eng.getEmployee());
+	
+	String n = "hello";
+	System.out.println(n);
 	}
 
 }
