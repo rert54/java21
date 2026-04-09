@@ -19,6 +19,7 @@ class Cat extends Pet{
 	
 	//public void c()throws IOException {} //같은 계열만 가능하다
 
+	}	
 public class ExciptionTest8 {
 
 	public static void main(String[] args) {
